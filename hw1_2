@@ -1,0 +1,15 @@
+a=int(input())
+b=int(input())
+c=int(input())
+m=0
+
+if a>b and a>c:
+    m=a
+    print (a)
+if a>b and a<c:
+    m=c
+    print (b)
+else:
+    b==c
+    m=max
+    print (c)

@@ -1,0 +1,36 @@
+print ('''Hello, my Name is Makhmood, 
+I want to chill out tonight! :D''')
+name= input('''To begin with, I need to know your name! 
+What is your name? ''')
+print("Hello " + name)
+gender = input('''I need to know your gender, 
+press \'enter\' to continue''')
+gender_ask = int(input('''If you are Famele, choose \'1\',
+if you are Male, choose \'2\' '''))
+if gender_ask ==1:
+    print('Hello dear, nice to meet you!')
+else: 
+    print("Buy brother, I want to chill out with a girl only")
+print ("How old are you?")
+age = int(input())
+if age>=18:
+    print ("Hello brother, you age is greater that 18, Nice to meet you :D ")
+else:
+    print ('Your age is under 18, BUY!) ')
+print ("before we go out together, i want to show you some math magic, are you ready?")
+math_answer = input()
+print ('''write any two numbers''')
+a=int(input())
+b=int(input())
+print("sum of your numbers is")
+print (a+b)
+print ('The difference in numbers is')
+print (a-b)
+print ("The product of numbers is ")
+print (a*b)
+print("Could I surprise you?) ")
+answer2=input()
+print ('''It is time to get you ph.number
+type your numbers''')
+number = int(input())
+print ('That is fine dear, I will call you at 19.00 today :D ')
